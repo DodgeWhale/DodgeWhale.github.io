@@ -1,6 +1,6 @@
 html, body {
   margin: 0;
-  background-color: #ccc;
+  background-color: #000000;
   font-family: Helvetica, sans-serif; }
 
 header {
@@ -23,16 +23,17 @@ footer {
 
 .fullscreen {
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0; }
 
 #app {
   display: flex;
   color: #333333;
-  position: absolute;
   z-index: 2; }
 
 #render {
-  position: absolute;
   z-index: 1; }
 
 .row {
